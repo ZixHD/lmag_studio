@@ -1,4 +1,5 @@
 
+import ParticlesBackground from "../Particles/particles";
 import "./mainText.css"
 import { Inter } from "next/font/google";
 
@@ -16,6 +17,7 @@ export default function MainText(){
             <div className={`join-button ${inter.className}`}>
                 <p>Join us</p>
             </div>
+
         </div>
     )
 }
