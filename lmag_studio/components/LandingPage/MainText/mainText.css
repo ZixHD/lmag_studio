@@ -2,6 +2,10 @@
   padding-top: 5rem;
   padding-left: 6rem;
 }
+.helper{
+   display: flex;
+   flex-direction: row;
+}
 
 .studio-text-container {
 
@@ -41,4 +45,18 @@
   background-color: #00CE00;
 
   margin-top: 2.5rem; 
+  
+}
+
+.join-button:hover{
+  background-color: #038e03;
+}
+
+.down-arrow-container{
+  display: grid;
+  align-items: center ;
+  justify-content: center;
+  
+  cursor: pointer;
+  margin-top: 14rem;
 }

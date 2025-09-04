@@ -14,7 +14,7 @@ export default function Header(){
                 <div className="image-container">
                     <Image src="/logo.gif"
                             alt="logo"
-                            width={70}
+                            width={80}
                             height={80}
                         />
                 </div>

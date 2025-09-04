@@ -1,15 +1,34 @@
+
+"use client"
+import { useRef } from "react";
 import Header from "../../components/LandingPage/Header/header";
 import MainText from "../../components/LandingPage/MainText/mainText";
 import ParticlesBackground from "../../components/LandingPage/Particles/particles";
 import styles from './page.css'
 
 export default function Home(){
+  const nextSectionRef = useRef(null);
+
+  const scrollToNextSection = () => {
+    console.log("scroll")
+    if (nextSectionRef.current) {
+      nextSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
   return (
-    <div>
-      <ParticlesBackground></ParticlesBackground>
-     <div style={{ position: "relative", zIndex: 1 }}>
+     <div style={{ position: "relative", width: "100%", height: "100vh" }}>
+      <ParticlesBackground />
+
+      <div style={{ position: "relative", zIndex: 1 }}>
         <Header />
-        <MainText />
+        <MainText onClick={scrollToNextSection} />
+      </div>
+      <div
+        ref={nextSectionRef}
+        style={{ height: "100vh", background: "#444", color: "#fff" }}
+      >
+        <h2>Next Section</h2>
       </div>
     </div>
 
