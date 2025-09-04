@@ -8,17 +8,19 @@
 .header-background{
   background-color: #19191B;
   width: 100%;
-
-
 }
+
 .image-container {
-  padding-left: 4rem;
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+  cursor: pointer;
 }
 
 .routes-container {
   display: flex;
-  gap: 2rem; 
-  padding-right:4rem;
+  gap: 3.5rem; 
+  padding-top:1.5rem;
+  padding-right:6rem;
 }
 
 .route{
