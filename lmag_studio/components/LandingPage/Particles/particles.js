@@ -79,7 +79,7 @@ export default function ParticlesBackground() {
             color: "#19191B",
           },
           particles: {
-            color: { value: "#ffffff" },
+            color: { value: "#00CE03" },
             links: { enable: true, color: "#ffffff" },
             move: {
               enable: true,

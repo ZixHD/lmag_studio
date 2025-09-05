@@ -1,0 +1,34 @@
+
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.explore{
+    font-size: 2rem;
+}
+
+.explore-container{
+    padding: 1rem
+}
+
+.follow{
+    font-size: 2rem;
+}
+.follow-container{
+    padding: 1rem;
+   
+}
+
+.follow-images{
+     display: flex;
+  gap: 1rem; /* spacing between icons */
+ margin-left: auto;
+}
+

@@ -5,6 +5,8 @@ import Header from "../../components/LandingPage/Header/header";
 import MainText from "../../components/LandingPage/MainText/mainText";
 import ParticlesBackground from "../../components/LandingPage/Particles/particles";
 import styles from './page.css'
+import Games from "../../components/LandingPage/GameShowcase/games";
+import Footer from "../../components/LandingPage/Footer/footer";
 
 export default function Home(){
   const nextSectionRef = useRef(null);
@@ -28,7 +30,11 @@ export default function Home(){
         ref={nextSectionRef}
         style={{ height: "100vh", background: "#444", color: "#fff" }}
       >
+        <Games />
         <h2>Next Section</h2>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
 

@@ -12,9 +12,9 @@ export default function Header(){
         <div className="header-background">
             <div className="header-container">
                 <div className="image-container">
-                    <Image src="/logo.gif"
+                    <Image src="/logo2.png"
                             alt="logo"
-                            width={80}
+                            width={75}
                             height={80}
                         />
                 </div>

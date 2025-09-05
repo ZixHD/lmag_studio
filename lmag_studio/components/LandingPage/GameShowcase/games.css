@@ -1,0 +1,17 @@
+
+.game-text{
+    font-size: 2rem;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-showcase-container{
+    background-color: #585656;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+}
